@@ -1,0 +1,31 @@
+@font-face {
+	font-family: mxedruli;
+	src: url(../../fonts/mkhedruli.ttf);
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.upperKa{
+	font-family: mxedruli;
+}
+
+
+
+/* scrolllbar */
+body::-webkit-scrollbar {
+    width: 0.75em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,200,0.1);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #16a0ef;
+  outline: 1px solid #16a0ef;
+}
+
+/* end scrollbar */
