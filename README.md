@@ -1,18 +1,3 @@
-<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto+Slab" rel="stylesheet">
-<style>
-	html,body, div.container-fluid{
-		margin: 0;
-		padding: 0;
-	}
-	h1.title{
-		font-family: 'Roboto Slab', serif;
-		font-family: 'Abril Fatface', cursive;
-		font-size: 7em;
-		background: rgba(235,223,245,0.5);
-		width: 100%;
-	}
-</style>
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 <div class="row p-0 m-0">
 	<div class="col-12 p-0">
 		<h1 class="text-center m-auto mb-2 title p-5 grey-text">PHP ninja</h1>
