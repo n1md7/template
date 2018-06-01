@@ -5,14 +5,14 @@
 </div>
 <div class="row m-0">
 	<div class="col-12">
-		<h1 class="text-center grey-text py-5">Welcome, This is custom created template <code>PHP.ninja();</code></h1>
+		<h1 class="text-center grey-text py-5">Welcome. This is a custom created template <code>PHP.ninja();</code></h1>
 	</div>
 </div>
 <div class="row justify-content-center m-0">
 	<div class="col-6 text-center">
 		<p>This is default page <code>index.php</code>. The first thing you have to do is to check <em>config.php</em> and edit database constants.</p>
 		<hr>
-		<p><b>Structue</b>: there are main pre defined mandatory folders:
+		<p><b>Structue</b>: there are main predefined mandatory folders:
 			<ol>
 				<li><b>assets</b> - images, javascript, fonts, css etc.</li>
 				<li><b>classes</b> - important classes, core functions</li>
@@ -22,7 +22,7 @@
 			</ol>
 		</p>
 		<hr>
-		<h3 class="text-center grey-text">How to create page?</h3>
+		<h3 class="text-center grey-text">How to create a page?</h3>
 		<p>
 		Let's create page user -> info 
 			<ol>
