@@ -5,7 +5,7 @@
 	define("DB_HOST", "localhost");
 	define("DB_USER", "root");  
 	define("DB_PASS", "password"); 
-	define("DB_NAME", "webstore");
+	define("DB_NAME", "dvwa");
 
 	define("ROOT_PATH", "/".basename(dirname(__FILE__))."/");
 

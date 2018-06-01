@@ -16,6 +16,8 @@ ini_set('display_errors', DEBUG ? 'On' : 'Off');
 foreach (['functions', 'Messages', 'Bootstrap', 'Controller', 'Model'] as $file) 
 	require("classes/$file.php");
 
+//include
+
 foreach (['home'] as $file):
 	require("controllers/$file.php");
 	require("models/$file.php");	

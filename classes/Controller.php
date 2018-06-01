@@ -12,10 +12,15 @@ abstract class Controller{
 		return $this->{$this->action}();
 	}
 
-	protected function returnView($viewmodel, $fullview){
+	/* $templateName = false if dont want to use any template */
+	protected function returnView($viewmodel, $templateName){
 		$view = 'views/'. get_class($this). '/' . $this->action. '.php';
-		if($fullview){
-			require('views/main.php');
+		if($templateName){
+			if(file_exists('views/_templates/'.$templateName)){
+				require('views/_templates/'.$templateName);
+			}else{
+				exit($templateName.' doesn\'n exist in _templates folder!');
+			}
 		} else {
 			require($view);
 		}
