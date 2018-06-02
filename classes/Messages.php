@@ -19,7 +19,7 @@ class Messages{
 	public static function display(){
 		if(isset($_SESSION['errorMsg'])){
 			?>
-				<div class="mt-3 alert alert-danger text-center col-md-6 col-centered <?php echo ANIMATION; ?>" >
+				<div class="mt-3 alert alert-danger text-center" >
 					<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 					<strong>Error!</strong>
 					<hr>
@@ -31,7 +31,7 @@ class Messages{
 
 		if(isset($_SESSION['warnMsg'])){
 			?>
-				<div class="mt-3 alert alert-warning text-center col-md-6 col-centered <?php echo ANIMATION; ?>" >
+				<div class="mt-3 alert alert-warning text-center" >
 					<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 					<strong>Warning!</strong>
 					<hr>
@@ -43,7 +43,7 @@ class Messages{
 
 		if(isset($_SESSION['infoMsg'])){
 			?>
-				<div class="mt-3 alert alert-info text-center col-md-6 col-centered <?php echo ANIMATION; ?>" >
+				<div class="mt-3 alert alert-info text-center" >
 					<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 					<strong>Information!</strong>
 					<hr>
@@ -55,7 +55,7 @@ class Messages{
 
 		if(isset($_SESSION['successMsg'])){
 			?>
-				<div class="mt-3 alert alert-success text-center col-md-6 col-centered <?php echo ANIMATION; ?>" >
+				<div class="mt-3 alert alert-success text-center" >
 					<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 					<strong>Successfull!</strong>
 					<hr>
