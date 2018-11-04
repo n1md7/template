@@ -1,6 +1,0 @@
-<?php
-class {Home}Model extends Model{
-	public function {Index}(){
-		return;
-	}
-}

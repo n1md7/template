@@ -1,8 +1,0 @@
-<?php
-class {Home} extends Controller{
-	protected function {Index}(){
-		$viewmodel = new {Home}Model();
-		$this->returnView($viewmodel->{Index}(), 'main.php');
-	}
-	
-}
